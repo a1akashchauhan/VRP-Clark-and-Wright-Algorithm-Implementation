@@ -1,4 +1,13 @@
 # VRP-Clark-and-Wright-Algorithm-Implementation
+
+Clark and Wright Savings Algorithm implementation to solve a VRP.
+
+In order to get the code run, you need 2 input files in .csv format:
+- Nodes' distances to depot and the demands on them.
+- Pairwise distances between nodes. If your nodes are in coordinate format, you can actually convert them to pairwise easily using other tools.
+I have the sample data files uploaded here.
+
+About VRP
 Vehicle Routing Problem (VRP) is an optimization problem where a set 
 of vehicles are required to serve a given set of customers with a 
 minimum cost. In VRP, vehicles have a limited capacity and each 
@@ -10,4 +19,4 @@ feasible solution for VRP.
 In this project, we have implemented the Clark and Wright 
 Savings Algorithm to solve a VRP.
 
-Clark and Wright Savings Algorithm implementation to solve a VRP.
+
